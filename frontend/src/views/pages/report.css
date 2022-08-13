@@ -1,0 +1,17 @@
+.mainCard {
+  background: rgb(69, 46, 148);
+  background: linear-gradient(
+    337deg,
+    rgba(69, 46, 148, 1) 0%,
+    rgba(158, 131, 251, 1) 100%
+  );
+  box-shadow: 1px 14px 31px -3px rgba(0, 0, 0, 0.47);
+  border-radius: 22px 22px 22px 22px;
+  height: 250px;
+  color: #f4f1ff;
+  padding: 25px;
+}
+.cardTitle {
+  font-size: 22px;
+  font-weight: 800;
+}

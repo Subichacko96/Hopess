@@ -1,0 +1,78 @@
+@page {
+  size: A4 !important;
+  margin: 0;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+    margin: 5px 0px 0px 0px;
+  }
+  .notPrint * {
+    visibility: hidden !important;
+  }
+  .notPrint {
+    visibility: hidden !important;
+  }
+  #toPrint * {
+    visibility: visible;
+    color: black !important;
+  }
+  #toPrint {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1025px;
+    color: black !important;
+  }
+}
+
+.printRow {
+  height: 20px !important;
+}
+table,
+th {
+  border: 1px solid rgb(0, 0, 0);
+  color: black !important;
+}
+
+td {
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  color: black !important;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+td {
+  padding: 10px;
+}
+
+.listItem {
+  cursor: pointer;
+  padding: 12px !important;
+}
+
+.listItem:hover {
+  background-color: #191f4d !important;
+  color: aliceblue;
+}
+.smallText {
+  font-size: 12px;
+}
+.blackText {
+  color: black !important;
+}
+.line {
+  background-color: rgb(0, 0, 0);
+  height: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.divBorder {
+  border: 1px solid rgb(0, 0, 0);
+}
+.totalRow {
+  border: 1px solid rgb(0, 0, 0);
+}
